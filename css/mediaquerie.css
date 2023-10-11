@@ -11,6 +11,17 @@
     body{
         height: 750px;
     }
+    .profile-grid {
+        display: contents;
+        
+    }
+    .profile {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .about-profile {
+        margin: 5px;
+    }
 }
 
 @media screen and (min-width: 412px) and (max-width: 915px){
@@ -27,4 +38,16 @@
         height: 920px;
         
     }
+    .profile-grid {
+        display: contents;
+        
+    }
+    .profile {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .about-profile {
+        margin: 5px;
+    }
 }
+    

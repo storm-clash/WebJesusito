@@ -32,19 +32,30 @@
 }
 .upload-icon {
     height: 24px;
-   
-    
+}
+.upload-icon:hover {
+    cursor: pointer;
+    height: 30px;
+    transition: opacity 0.15s;
 }
 .youtube-apps-icon {
     height: 24px;
-    
-    
+}
+.youtube-apps-icon:hover {
+    cursor: pointer;
+    height: 30px;
+    transition: opacity 0.15s;
 }
 
 .notifications-icon {
     height: 24px;
     
     
+}
+.notifications-icon:hover {
+    cursor: pointer;
+    height: 30px;
+    transition: opacity 0.15s;
 }
 
 .left-section a {
