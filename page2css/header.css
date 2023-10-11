@@ -1,0 +1,60 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+.left-section {
+
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Dancing Script,Arial;
+}
+
+.upload-icon {
+    height: 30px;
+    filter: opacity(0.4) drop-shadow(0 0 0 white);
+    
+    
+}
+.youtube-apps-icon {
+    height: 30px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+    
+}
+
+.notifications-icon {
+    height: 30px;
+    filter: opacity(0.4) drop-shadow(0 0 0 white);
+    
+}
+.logo-icon {
+    height: 200px;
+   
+}

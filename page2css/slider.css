@@ -1,0 +1,143 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #161616;
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-delay: 0s;
+    z-index: 1;
+    clip-path: circle(0px at bottom);
+}
+.slider input[type="radio"]:checked + .imgBox {
+    z-index: 10;
+    clip-path: circle(270vh at bottom);
+    transition-delay: 0.8s;
+}
+
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+    
+}
+
+.contenido {
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+}
+
+.contenido h1 {
+    font-size: 6em;
+    line-height: 1em;
+    color: #fff;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.contenido p {
+    font-size: 1.1em;
+    color: #fff;
+    line-height: 1.5;
+}
+.contenido a {
+    position: relative;
+    display: inline-block;
+    background:transparent;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #161616;
+    transition: 0.3s;
+    
+}
+.contenido a:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.slider input[type="radio"] {
+    position: relative;
+    z-index: 1000;
+    margin: 5px;
+    margin-bottom: 40px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #945bc4;
+    border-radius: 50%;
+    display: grid;
+    place-content:center;
+}
+
+.slider input[type="radio"]::before {
+
+    content: '';
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #945bc4;
+}
+
+.slider input[type="radio"]:checked::before {
+    transform: scale(2);
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 30px 70px;
+    }
+    .contenido {
+        max-width: 500px;
+    }
+    .contenido h1 {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 30px 40px;
+    
+    }
+    header a {
+        margin-right: 20px;
+    }
+    .contenido a {
+        margin-top: 10px;
+    }
+    .contenido h1 {
+        font-size: 3.5em;
+    }
+    .contenido p {
+        font-size: 1em;
+    }
+}
