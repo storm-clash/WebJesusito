@@ -1,6 +1,6 @@
 .slider-box {
     width: 100%;
-    height: 735px;
+    height: 850px;
     max-width: 100%;
     
 }
@@ -17,6 +17,7 @@
     overflow: hidden;
     gap: 1px;
     width: max-content;
+    height: max-content;
     height: 100%;
     justify-content: center;
     animation: scroll 50s infinite alternate ease-in-out;
@@ -38,6 +39,6 @@
 
 @keyframes scroll {
     to {
-        transform: translate(-71.5%);
+        transform: translate(-70%);
     }
 }
