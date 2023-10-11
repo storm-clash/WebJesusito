@@ -9,4 +9,14 @@ body {
     padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
 
+    .header {
+       width: 90px
+
+    }
+    .left-section {
+        margin-right: 90px;
+    }
+    
+}
