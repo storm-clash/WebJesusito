@@ -38,6 +38,6 @@
 
 @keyframes scroll {
     to {
-        transform: translate(-72%);
+        transform: translate(-65%);
     }
 }
