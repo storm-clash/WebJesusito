@@ -1,0 +1,30 @@
+@media screen and (max-width: 400px){
+
+    .header {
+       width: 90px;
+    
+
+    }
+    .left-section {
+        margin-right: 100px;
+    }
+    body{
+        height: 750px;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 915px){
+
+    .header {
+       width: 90px;
+    
+
+    }
+    .left-section {
+        margin-right: 130px;
+    }
+    body{
+        height: 920px;
+        
+    }
+}
